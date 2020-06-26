@@ -12,5 +12,6 @@ button.addEventListener('click', () => {
   //console.log('yes');
   const userInput = input1.value;
   result.textContent = userInput;
+  result.classList.remove('hidden');
   //console.log(userInput);
 });
