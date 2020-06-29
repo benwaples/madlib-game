@@ -47,6 +47,7 @@ section {
 
 header {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
     background-color: var(--color3);
     height: var(--header-height);
@@ -78,8 +79,6 @@ header img {
     height: var(--header-height);
 }
 
-
-
 content {
     width: 80%;
 }
@@ -99,7 +98,7 @@ footer {
     box-shadow: var(--shadow);
 }
   
-  @keyframes pulse {
+@keyframes pulse {
     20% {
       transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
     }
@@ -116,8 +115,18 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
-  }
-  /* .hidden {
-      display: none;
+}
+  
+/* working on design below - but not able to get it to show up as of yet. Will be commented out in the mean time */
 
-  } */
+/* .initialInstructions {
+    text-align: left;
+    text-size-adjust: 2px;
+}
+*/
+
+/* h6 {
+	align-content: inherit;
+    font-size: 100%;
+    align-items: center;
+} */

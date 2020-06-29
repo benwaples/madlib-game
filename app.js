@@ -4,13 +4,11 @@ const input2 = document.getElementById('ingWord-2');
 //console.log(input1);
 // initialize state
 const result1 = document.getElementById('results-1');
-const result2 = document.getElementsById('results-2');
+const result2 = document.getElementById('results-2');
 // set event listeners to update state and DOM 
 
 const button = document.getElementById('submitButton');
 //console.log(button);
-
-const madLib = document.getElementsByClassName('mad-lib');
 
 button.addEventListener('click', () => {
   //console.log('yes');
@@ -20,7 +18,11 @@ button.addEventListener('click', () => {
 
     result1.textContent = userInput1;
     result2.textContent = userInput2;
-    madLib.classlist.remove('hidden');
+    
+    let p = document.getElementById('whatever');
+    p.removeAttribute('hidden');
+
+    // ^ added hidden feature with <p> tag on html with id: "whatever"
 
   //console.log(userInput);
 
