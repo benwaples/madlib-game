@@ -36,4 +36,15 @@ time, mark, audio, video {
 
 ol, ul {
 	list-style: none;
+
+}
+
+.initialInstructions {
+    text-align: left;
+    text-size-adjust: 2px;
+}
+
+h6 {
+	align-content: inherit;
+	font-size: 100%;
 }
